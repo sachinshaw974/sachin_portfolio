@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+  }
+}
